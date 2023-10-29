@@ -14,19 +14,26 @@ XEPOS CRM is a Customer Relationship Management system built with Laravel 8 and 
 ## Installation
 
 1. **Clone Repository:**
+```
 git clone https://github.com/yourusername/xepos-crm.git
-
+```
 2. **Install Composer Dependencies:**
+```
 composer install
-
+```
 3. **Install NPM Dependencies:**
+```
 npm install
-
+```
 4. **Create a Copy of Your `.env` File:**
+```
 cp .env.example .env
+```
 
 5. **Generate Application Key:**
+```
 php artisan key:generate
+```
 
 6. **Database Setup:**
 - Create a MySQL database.
@@ -37,7 +44,9 @@ php artisan key:generate
   ```
 
 7. **Start Development Server:**
+```
 php artisan serve
+```
 
 8. **Access Application:**
 Open your web browser and navigate to `http://localhost:8000`.
